@@ -1,0 +1,138 @@
+body {
+  padding: 220px 100px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: .96rem;
+  line-height: 2;
+}
+
+h3 {
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Teko', sans-serif;
+  font-size: 2.8rem;
+  color: white;
+}
+
+svg {
+  margin: 50px 0 5px 50px;
+}
+
+
+
+.column-position {
+  width: 900px;
+  height: 500px;
+  position: relative;
+  left: 400px;
+  bottom: 1px;
+}
+
+.sedans {
+position: absolute;
+width: 300px;
+height: 500px;
+background-color: #e38800;
+display: inline-block;
+margin: 0;
+border-radius: 15px 0 0 15px;
+}
+
+.suvs {
+  position: absolute;
+  left: 300px;
+  width: 300px;
+  height: 500px;
+  background-color: #256e7d;
+  display: inline-block;
+  margin: 0;
+}
+
+.luxury {
+  position: absolute;
+  left: 600px;
+  width: 300px;
+  height: 500px;
+  background-color: #11453f;
+  display: inline-block;
+  margin: 0;
+  border-radius: 0 15px 15px 0;
+}
+
+.sedans-paragraph {
+  width: 70%;
+  margin: 0 0 60px 50px;
+
+}
+
+.suvs-paragraph {
+  width: 70%;
+  margin: 0 0 60px 50px;
+}
+
+.luxury-paragraph {
+  width: 70%;
+  margin: 0 0 60px 50px;
+}
+
+.attribution {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
+
+.btn1 {
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: #e38800;
+  font-size: 18px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.btn1:hover {
+  background: #ffde85;
+  color: #e38800;
+}
+
+.btn2 {
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: #256e7d;
+  font-size: 18px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.btn2:hover {
+  background: #26B5C0;
+  color: #256e7d;
+}
+
+.btn3 {
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: #11453f;
+  font-size: 18px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.btn3:hover {
+  background: #19B89D;
+  color: #11453f;
+}
